@@ -1,0 +1,45 @@
+SIAT awake-mouse MRI: eight-subject analysis subset
+
+Contents
+--------
+This subset contains one T2-weighted anatomical image and one selected long
+BOLD run per subject (sub-01 through sub-08). Seven BOLD runs contain 240
+volumes and one (sub-04) contains 300 volumes, with a repetition time of 2 s.
+The included images are raw NIfTI exports, not preprocessed derivatives.
+Short reverse-encoding reference scans are not included in this release subset.
+The preparation archive retains those scans separately outside this dataset.
+
+Acquisition metadata and limitations
+------------------------------------
+Signed PhaseEncodingDirection could not be reliably verified for these runs
+and is omitted rather than inferred from sequence labels. TotalReadoutTime
+was derived from EffectiveEchoSpacing * (ReconMatrixPE - 1), as documented
+in the preparation audit. These fields do not establish phase-encoding polarity.
+No corresponding fieldmaps are distributed in this subset.
+
+All eight included BOLD runs are labelled task-rest. For sub-04, the depositor
+confirmed a resting-state acquisition without stimulation. Its original
+sequence name included 2MT, but no stimulus was delivered during this run.
+The task label has been corrected accordingly; no stimulus events.tsv applies.
+The depositor confirmed that all eight mice were male and that the included
+BOLD runs were acquired awake, without anesthesia and without stimulation.
+The depositor confirmed the strain as C57BL/6J. Age at scanning was not available during preparation and is not inferred
+from surgery ages reported in related publications.
+
+The depositor confirmed that the anatomical and functional images assigned
+to sub-03 belong to the same animal but were acquired on two separate scan
+occasions. The anatomical image is therefore a cross-scan reference for the
+BOLD run, rather than an anatomical acquisition from the same scan occasion.
+The exact scan dates and interval have not been confirmed in this preparation.
+
+Ethics and preparation status
+-----------------------------
+The depositor confirmed that these eight mice are covered by ethics approval
+SIAT-IACUC-240702-YGS-LY-A2838. The depositor-confirmed CC0 license and ordered
+author list are retained from the source draft.
+The previously flagged sub-03 animal identity and sub-04 experimental condition
+have been clarified by the depositor. Age at scanning and the interval between
+the two scan occasions for sub-03 were not provided. These omissions are
+reported explicitly rather than filled with inferred values.
+OpenNeuro accession: ds009028.
+The preparation archive and audit records are retained separately from this release.

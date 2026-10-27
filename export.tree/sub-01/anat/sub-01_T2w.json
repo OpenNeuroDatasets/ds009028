@@ -1,0 +1,20 @@
+{
+  "MagneticFieldStrength": 9.4,
+  "Manufacturer": "UIH",
+  "ManufacturersModelName": "uMR_9.4T",
+  "SoftwareVersions": "R002",
+  "MRAcquisitionType": "2D",
+  "ScanningSequence": "SE",
+  "SequenceVariant": "NONE",
+  "ScanOptions": "SB1",
+  "SequenceName": "fse",
+  "EchoTime": 0.0462,
+  "RepetitionTime": 3.71,
+  "FlipAngle": 180,
+  "PartialFourier": 0.0855263,
+  "AcquisitionMatrixPE": 152,
+  "ReconMatrixPE": 304,
+  "PixelBandwidth": 220,
+  "ConversionSoftware": "dcm2niix",
+  "ConversionSoftwareVersion": "v1.0.20190902"
+}
