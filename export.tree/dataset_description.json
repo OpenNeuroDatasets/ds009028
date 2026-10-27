@@ -1,0 +1,27 @@
+{
+    "Name": "SIAT awake-mouse MRI",
+    "BIDSVersion": "1.11.1",
+    "DatasetType": "raw",
+    "License": "CC0",
+    "Authors": [
+        "Jianyu Yuan",
+        "Hongtao Zhang",
+        "Liwen Wan",
+        "Yuanxi Shen",
+        "Zhifei Zhu",
+        "Yexin Han",
+        "Zeping Xie",
+        "Pingfu Wang",
+        "Qian Wan",
+        "Xiaojing Long",
+        "Chao Zou",
+        "Dong Liang",
+        "Hairong Zheng",
+        "Ye Li",
+        "Yi He"
+    ],
+    "EthicsApprovals": [
+        "SIAT-IACUC-240702-YGS-LY-A2838"
+    ],
+    "DatasetDOI": "doi:10.18112/openneuro.ds009028.v1.0.0"
+}
